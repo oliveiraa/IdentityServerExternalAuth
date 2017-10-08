@@ -39,8 +39,8 @@ namespace IdentityServerExternalAuth.Processors
             var existingUser = _userManager.FindByEmailAsync(userEmail).Result;
             if(existingUser != null)
             {
-                return new GrantValidationResult(TokenRequestErrors.InvalidRequest, "User with specified email already exists");
-
+                var userClaims = _userManager.GetClaimsAsync(existingUser).Result;
+                return new GrantValidationResult(existingUser.Id, provider, userClaims, provider, null);
             }
 
             var new_user = new ApplicationUser { Email = userEmail ,UserName = userEmail};

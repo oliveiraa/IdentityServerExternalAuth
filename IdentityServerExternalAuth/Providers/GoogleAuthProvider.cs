@@ -30,8 +30,10 @@ namespace IdentityServerExternalAuth.Providers
                                     .FirstOrDefault(x => x.Name.ToLower() == ProviderType.Google.ToString().ToLower());
         public JObject GetUserInfo(string accessToken)
         {
-            var request = new Dictionary<string, string>();
-            request.Add("token", accessToken);
+            var request = new Dictionary<string, string>
+            {
+                { "token", accessToken }
+            };
 
             var result = _httpClient.GetAsync(Provider.UserInfoEndPoint + QueryBuilder.GetQuery(request, ProviderType.Google)).Result;
             if (result.IsSuccessStatusCode)

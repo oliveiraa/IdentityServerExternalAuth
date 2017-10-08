@@ -46,11 +46,13 @@ namespace IdentityServerExternalAuth.ExtensionGrant
             _nonEmailUserProcessor = nonEmailUserProcessor ?? throw new ArgumentNullException(nameof(nonEmailUserProcessor));
             _emailUserProcessor = emailUserProcessor ?? throw new ArgumentNullException(nameof(nonEmailUserProcessor));
 
-            providers = new Dictionary<ProviderType, IExternalAuthProvider>();
-            providers.Add(ProviderType.Facebook, _facebookAuthProvider);
-            providers.Add(ProviderType.Google, _googleAuthProvider);
-            providers.Add(ProviderType.Twitter, _twitterAuthProvider);
-            providers.Add(ProviderType.LinkedIn, _linkedAuthProvider);
+            providers = new Dictionary<ProviderType, IExternalAuthProvider>
+            {
+                { ProviderType.Facebook, _facebookAuthProvider },
+                { ProviderType.Google, _googleAuthProvider },
+                { ProviderType.Twitter, _twitterAuthProvider },
+                { ProviderType.LinkedIn, _linkedAuthProvider }
+            };
         }
 
 

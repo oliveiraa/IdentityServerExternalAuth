@@ -4831,7 +4831,7 @@
       ]
     },
     "Microsoft.AspNetCore.All/2.0.0": {
-      "sha512": "AQ4SM2ZY+yhkQ+kJADXP6OpBpR4xWScYsy7WtV77LxXSroSc8PBe3LORa1eycC1zF3ob/vq6WAn5SEtElaOZcQ==",
+      "sha512": "S7z4wTv1/jcO4xF91T/DSBle00RYtNjAk2pC2EMzEZpf99IAFTKOeMhZFzO1O1DRtnEjg2mzfoPc0OCjhqm5/Q==",
       "type": "package",
       "path": "microsoft.aspnetcore.all/2.0.0",
       "files": [
@@ -6538,7 +6538,7 @@
       ]
     },
     "Microsoft.Extensions.Logging.Debug/2.0.0": {
-      "sha512": "29Zn5m9yb4NEP+qbeLl+7F2lDskDfrs8NbrM8eJ+k/pYE8JksRUEFxHp1bcpGSfGP9w0pMQMOKrVcwD3u5sPog==",
+      "sha512": "R4LrPKRP8q7bEjDpBxvD9sPvC7djOiCZyYXqAGxw4yH2Mjn1PBQBaOhIyHoBPlK7tlp8DCwCVh5kFkR1+LlRFw==",
       "type": "package",
       "path": "microsoft.extensions.logging.debug/2.0.0",
       "files": [
@@ -12535,7 +12535,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MWaqas\\.nuget\\packages\\": {},
+    "C:\\Users\\alvar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12544,28 +12544,24 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\IdentityServerExternal\\IdentityServerExternalAuth\\Sample\\Api\\Api.csproj",
+      "projectUniqueName": "D:\\Projects\\IdentityServer\\IdentityServerExternalAuth\\Sample\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "D:\\GitHub\\IdentityServerExternal\\IdentityServerExternalAuth\\Sample\\Api\\Api.csproj",
-      "packagesPath": "C:\\Users\\MWaqas\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\IdentityServerExternal\\IdentityServerExternalAuth\\Sample\\Api\\obj\\",
+      "projectPath": "D:\\Projects\\IdentityServer\\IdentityServerExternalAuth\\Sample\\Api\\Api.csproj",
+      "packagesPath": "C:\\Users\\alvar\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\IdentityServer\\IdentityServerExternalAuth\\Sample\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\MWaqas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alvar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\NugetPackages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Projects\\StartUp\\Collab\\Scaffolding\\Collab.Scaffolding\\bin\\Debug": {},
-        "http://nuget.togethersupport.co.uk/nuget": {},
-        "http://nugetgallery.d.togethersupport.co.uk/api/v2": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

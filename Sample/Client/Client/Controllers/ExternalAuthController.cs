@@ -77,17 +77,17 @@ namespace Client.Controllers
             return new JsonResult(null);
         }
 
-        private async Task<JsonResult> ApiRequest(string accessToken)
-        {
-            var client = new HttpClient
-            {
-                BaseAddress = new Uri(ApiBaseAddress)
-            };
+        //private async Task<JsonResult> ApiRequest(string accessToken)
+        //{
+        //    var client = new HttpClient
+        //    {
+        //        BaseAddress = new Uri(ApiBaseAddress)
+        //    };
 
-            client.SetBearerToken(accessToken);
+        //    client.SetBearerToken(accessToken);
 
-            var result = await client.GetStringAsync("Values/Get");
-            return new JsonResult(JArray.Parse(result));
-        }
+        //    var result = await client.GetStringAsync("Values/Get");
+        //    return new JsonResult(JArray.Parse(result));
+        //}
     }
 }

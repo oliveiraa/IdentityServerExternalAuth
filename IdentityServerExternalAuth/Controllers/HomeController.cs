@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace IdentityServerExternalAuth.Controllers
 {
-    public class HomeController:Controller
+    public class HomeController : Controller
     {
-        public  string Index()
+        public string Index()
         {
             return "IdentityServer4 Running...!!!";
         }
